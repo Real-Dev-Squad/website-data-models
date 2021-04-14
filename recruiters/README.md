@@ -3,9 +3,13 @@ Firestore Recruiters collection data model
 
 ```
 {
-  recruiterId: id,
-  recruiterName: `${firstName} ${lastName}`,
-  userInfo: userInfo,
-  timestamp: timestamp
+  company: string,
+  first_name: string,
+  last_name: string,
+  designation: string,
+  reason: string,
+  email: string,
+  currency: string,
+  package: 0
 }
 ```
