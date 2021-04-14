@@ -2,37 +2,60 @@
 
 ```
 {
-  prList: [{
-    'title': <title of pull request>,
-    'url': <url of pull request>,
-    'state': <open or closed>,
-    'createdAt': <unix_timestamp>,
-    'updatedAt': <unix_timestamp>,
-    'raisedBy': <username of the assignee>
-  }],
-  task: {
-    'title': <task tile>,
-    'purpose': <why this task is needed>,
-    'endsOn': <unix_timestamp>,
-    'startedOn': <unix_timestamp>,
-    'deployedOn': <unix_timestamp>,
-    'status': <status of the task>,
-    'participants': [
-      {
-        'firstName': <first name of user>,
-        'lastName': <last name of user>,
-        'img': <image url of user>,
-        'username': <username of the user>
-      },
-      {
-        'firstName': <first name of user>,
-        'lastName': <last name of user>,
-        'img': <image url of user>,
-        'username': <username of the user>
-      }
-    ],
-    'featureUrl': <url of the feature task>,
-    'isNoteworthy': true
+  noteworthy: {
+    task: {
+      title: string,
+      purpose: string<why task is needed>,
+      featureUrl: string,
+      endsOn: timestamp,
+      startedOn: timestamp,
+      deployedOn: timestamp,
+      status: string,
+      dependsOn: [string],
+      participants: [{
+        firstName: string,
+        lastName: string,
+        img: string,
+        username: string
+      }],
+      isNoteworthy: boolean
+    },
+    prList: [{
+      title: string,
+      url: string,
+      state: string<open|closed>,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+      raisedBy: string<username>
+    }]
+  },
+  all: {
+    task: {
+      title: string,
+      purpose: string<why task is needed>,
+      featureUrl: string,
+      endsOn: timestamp,
+      startedOn: timestamp,
+      deployedOn: timestamp,
+      status: string,
+      dependsOn: [string],
+      participants: [{
+        firstName: string,
+        lastName: string,
+        img: string,
+        username: string
+      }],
+      isNoteworthy: boolean
+    },
+    prList: [{
+      title: string,
+      url: string,
+      state: string<open|closed>,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+      raisedBy: string<username>
+    }]
   }
 }
+
 ```
