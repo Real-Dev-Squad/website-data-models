@@ -1,4 +1,14 @@
 # Tasks
 Firestore Tasks collection data model
 
-TBD
+WIP
+```
+{
+  taskId: <id>,
+  ...
+  createdBy: string,
+  assignee: string,
+  participants: []
+}
+   
+```

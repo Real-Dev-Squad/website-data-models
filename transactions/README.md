@@ -1,4 +1,11 @@
 # Transactions
 Transactions firestore collection data model
 
-TBD
+```
+{
+  userId: <userId>,
+  type: `STOCK_${tradeType}`,
+  refId: id,
+  timestamp: <timeStamp>
+}
+```

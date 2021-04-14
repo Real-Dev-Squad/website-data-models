@@ -1,4 +1,11 @@
 # Recruiters
 Firestore Recruiters collection data model
 
-TBD
+```
+{
+  recruiterId: id,
+  recruiterName: `${firstName} ${lastName}`,
+  userInfo: userInfo,
+  timestamp: timestamp
+}
+```

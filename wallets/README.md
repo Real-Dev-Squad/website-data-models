@@ -1,4 +1,11 @@
 # Wallets
 Wallets firestore collection data model
 
-TBD
+```
+{
+  userId: <userId>,
+  currencies: {
+    neelam: number,
+    dinero: number
+  }
+}
