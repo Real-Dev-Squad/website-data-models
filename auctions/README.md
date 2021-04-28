@@ -17,13 +17,3 @@
   'start_time': <unix-timestamp>
 }
 ```
-
-## Bids
-```
-{
-  'auction_id': <auction-id>,
-  'bid': <number: 10>,
-  'bidder': <userId>,
-  'timestamp': <unix-timestamp>
-}
-```
