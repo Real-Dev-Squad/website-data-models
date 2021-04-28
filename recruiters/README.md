@@ -10,6 +10,6 @@ Firestore Recruiters collection data model
   reason: string,
   email: string,
   currency: string,
-  package: 0
+  package: number
 }
 ```

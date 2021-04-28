@@ -21,6 +21,6 @@
   'isMember': boolean,
   'userType': string,
   'tokens': {},
-  'badges': []
+  'status': string
 }
 ```
