@@ -1,4 +1,10 @@
 # Stocks
 Firestore Stocks collection data model
 
-TBD
+```
+{
+  name: string,
+  price: number,
+  quantity: number
+}
+```
