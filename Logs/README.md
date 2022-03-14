@@ -1,13 +1,9 @@
 # Logs
 ```
 {
-  type: String,
-  timestamp: Time,
-  meta: {
-    <Fields to filter logs>
-  }
-  body: {
-    <Data>
-  }
+  'type': string,
+  'timestamp': timestamp,
+  'meta': {},
+  'body': {},
 }
 ```
