@@ -3,7 +3,7 @@
 {
   'type': string,
   'timestamp': timestamp,
-  'meta': {},
-  'body': {},
+  'meta': object,
+  'body': object,
 }
 ```
