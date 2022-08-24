@@ -16,6 +16,7 @@
   'linkedin_id': string,
   'twitter_id': string,
   'instagram_id': string,
+  'skills': [],
   'website': string,
   'github_display_name': string,
   'isMember': boolean,
