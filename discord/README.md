@@ -8,8 +8,8 @@
 {
   "token": string,
   "discordId": string,
-  "generationTime": number,
-  "expiry": number,
+  "generationTime": timestamp,
+  "expiry": timestamp,
   "linkStatus": boolean
 }
 ```
