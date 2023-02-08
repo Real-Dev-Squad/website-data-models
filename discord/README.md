@@ -8,7 +8,7 @@
 {
   "token": string,
   "discordId": string,
-  "generationTime": timestamp,
+  "timestamp": timestamp,
   "expiry": timestamp,
   "linkStatus": boolean
 }
