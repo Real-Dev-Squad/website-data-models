@@ -1,15 +1,15 @@
-# Discord
+# External Accounts
 
 ## Firestore collection:
 
-- discord
+- external-accounts
 
 ```
 {
+  "type": string,
   "token": string,
-  "discordId": string,
+  "accountId": string,
   "timestamp": timestamp,
   "expiry": timestamp,
-  "linkStatus": boolean
 }
 ```
