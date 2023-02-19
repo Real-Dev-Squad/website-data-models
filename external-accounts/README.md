@@ -7,9 +7,20 @@
 ```
 {
   "type": string,
-  "token": string,
-  "accountId": string,
-  "timestamp": timestamp,
-  "expiry": timestamp,
+  "attributes" : object
+}
+```
+
+### Example
+- For Discord Accounts
+```
+{
+  "type": string,
+  "attributes" : {
+    "token": string,
+    "accountId": string,
+    "timestamp": timestamp,
+    "expiry": timestamp,
+  }
 }
 ```
