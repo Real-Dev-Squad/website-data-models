@@ -18,7 +18,7 @@
   "type": string,
   "attributes" : {
     "token": string,
-    "accountId": string,
+    "discordId": string,
     "timestamp": timestamp,
     "expiry": timestamp,
   }
