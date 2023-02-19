@@ -7,6 +7,8 @@
 ```
 {
   "type": string,
+  "token": string,
+  "createdOn": timestamp,
   "attributes" : object
 }
 ```
@@ -16,10 +18,10 @@
 ```
 {
   "type": string,
+  "token": string,
+  "createdOn": timestamp,
   "attributes" : {
-    "token": string,
     "discordId": string,
-    "timestamp": timestamp,
     "expiry": timestamp,
   }
 }
