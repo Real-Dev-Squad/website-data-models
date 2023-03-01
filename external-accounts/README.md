@@ -2,8 +2,6 @@
 
 ## Firestore collection:
 
-- external-accounts
-
 ```
 {
   "type": string,
@@ -13,6 +11,12 @@
 }
 ```
 
+- Optional fields for `attributes`:
+    - `expiry` - timestamp
+    - `discordId` - number
+    - `username` - string
+    - `picture` - string 
+
 ### Example
 - For Discord Accounts
 ```
@@ -21,7 +25,9 @@
   "token": string,
   "createdOn": timestamp,
   "attributes" : {
-    "discordId": string,
+    "discordId": number,
+    "username": string,
+    "picture": string,
     "expiry": timestamp,
   }
 }
