@@ -12,10 +12,11 @@
 ```
 
 - Optional fields for `attributes`:
-    - `expiry` - timestamp
     - `discordId` - number
     - `username` - string
-    - `picture` - string 
+    - `avatar` - string 
+    - `discriminator` - string
+    - `expiry` - timestamp
 
 ### Example
 - For Discord Accounts
@@ -27,7 +28,8 @@
   "attributes" : {
     "discordId": number,
     "username": string,
-    "picture": string,
+    "avatar": string,
+    "discriminator": string,
     "expiry": timestamp,
   }
 }
