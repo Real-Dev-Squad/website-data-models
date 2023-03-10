@@ -3,13 +3,15 @@
 Firestore Task Requests collection data model
 
 ```
-id: <id>,
-taskId: <id>,
-title: string,
-requestedBy:  [string],
-purpose: string,
-type: string,
-isNoteWorthy: boolean,
-currentStatus: string,
-approvedTo?: string,
+{
+  approvedTo?: string,
+  id: string,
+  isNoteworthy: boolean,
+  priority: "LOW" | "Normal" | "HIGH",
+  purpose: string,
+  requestedBy: string[],
+  status: "APPROVED" | "WAITING",
+  title: string,
+  type: "feature" | "bug",
+}
 ```
