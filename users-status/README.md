@@ -1,5 +1,4 @@
-# Stocks
-Firestore user status collection data model
+# Firestore user status collection data model
 
 ```
 {
