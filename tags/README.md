@@ -3,10 +3,7 @@
 ```
 {
   'id': string,
-  'date': {
-    "_seconds": number,
-    "_nanoseconds": timestamp,
-  },
+  'date': timeStamp,
   'reason': string,
   'createdBy': string,
   'name': string,
