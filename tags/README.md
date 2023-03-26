@@ -3,7 +3,7 @@
 ```
 {
   'id': string,
-  'date': string,
+  'date': timeStamp,
   'reason': string,
   'createdBy': string,
   'name': string,
