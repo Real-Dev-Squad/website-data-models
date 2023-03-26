@@ -7,14 +7,14 @@
   "currentStatus": {
     "state": "OOO | IDLE | ACTIVE",
     "updatedAt": "TimeStamp",
-    "from": "TimeStamp ",
+    "from": "TimeStamp",
     "until": "TimeStamp",
     "message": "String"
   },
   "futureStatus": {
     "state": "OOO | IDLE | ACTIVE",
     "updatedAt": "TimeStamp",
-    "from": "TimeStamp ",
+    "from": "TimeStamp",
     "until": "TimeStamp",
     "message": "String"
   },
