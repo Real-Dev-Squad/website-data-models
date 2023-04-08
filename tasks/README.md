@@ -22,6 +22,7 @@ Firestore Tasks collection data model
     dinero: number
   },
   isNoteworthy: boolean,
+  isCollapsed: boolean,
   createdBy: string,
   assignee: string,
   participants: [userId, userId]
