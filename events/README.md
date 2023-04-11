@@ -10,27 +10,27 @@
   'lock': boolean,
   'region': <'in' | 'us' | 'eu' | 'auto'>,
   'peers': [
-    "peer_id": string,
-    "peer_id": string,
-    "peer_id": string
+    "<peer_id>",
+    "<peer_id>",
+    "<peer_id>"
    ]
-  'createdBy': {
+  'created_by': {
     ref: 'User',
   },
-  questions: [
-     "question_id": string,
-     "question_id": string,
-     "question_id": string
+  'questions': [
+    "<question_id>",
+    "<question_id>",
+    "<question_id>"
   ],
-  comments: [
-    "comment_id": string,
-    "comment_id": string,
-    "comment_id": string
+  'comments;: [
+    "<comment_id>",
+    "<comment_id>",
+    "<comment_id>",
   ],
-  status: <'active' | 'inactive'>,
+  'status': <'active' | 'inactive'>,
   'timestamp': {
-    'createdAt': new Date(),
-    'updatedAt': new Date(),
+    'created_at': timestamp,
+    'updated_at': timestamp,
   }
 }
 ```
