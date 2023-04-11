@@ -26,6 +26,7 @@ Firestore Tasks collection data model
   createdBy: string,
   assignee: string,
   participants: [userId, userId]
+  percentCompleted : number
 }
    
 ```
