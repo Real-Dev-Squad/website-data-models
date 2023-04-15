@@ -22,6 +22,7 @@
   'isMember': boolean,
   'userType': string,
   'tokens': {},
-  'status': string
+  'status': string,
+  'roles': {}
 }
 ```
