@@ -25,7 +25,20 @@ Firestore Tasks collection data model
   isCollapsed: boolean,
   createdBy: string,
   assignee: string,
-  participants: [userId, userId]
+  participants: [userId, userId],
+  github: {
+    issue: {
+      status: string,
+      assignee: string,
+      id: number,
+      closedAt: string,
+      assigneeRdsInfo: {
+        firstName: string,
+        lastName: string,
+        username: string
+      }
+    }
+  }
 }
    
 ```
