@@ -28,7 +28,7 @@ Firestore Tasks collection data model
   participants: [userId, userId],
   github: {
     issue: {
-      status: string,
+      status: "closed | open",
       assignee: string,
       id: number,
       closedAt: string
