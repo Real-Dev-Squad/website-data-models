@@ -31,12 +31,7 @@ Firestore Tasks collection data model
       status: string,
       assignee: string,
       id: number,
-      closedAt: string,
-      assigneeRdsInfo: {
-        firstName: string,
-        lastName: string,
-        username: string
-      }
+      closedAt: string
     }
   }
 }
