@@ -43,7 +43,7 @@
 
 ### Example
 
-```
+```json
 {
   "id": "12345",
   "username": "ankur",
@@ -57,7 +57,7 @@
   "img": "./img.png",
   "github_id": "ankur",
   "github_display_name": "Ankur Narkhede",
-  "linkedin_id": ankurnarkhede,
+  "linkedin_id": "ankurnarkhede",
   "twitter_id": "whatifiz",
   "instagram_id": "myIgId",
   "skills": [],
