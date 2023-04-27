@@ -2,42 +2,42 @@
 
 ```json
 {
-  "id": <string>,
-  "username": <string>,
-  "first_name": <string>,
-  "last_name": <string>,
-  "email": <string>,
-  "phone": <number>,
-  "yoe": <number>,
-  "company": <string>,
-  "designation": <string>,
-  "img": <string>,
-  "github_id": <string>,
-  "github_display_name": <string>,
-  "linkedin_id": <string>,
-  "twitter_id": <string>,
-  "instagram_id": <string>,
-  "skills": [],
-  "website": <string>,
-  "isMember": <boolean>,
-  "userType": <string>,
-  "tokens": {
-    "githubAccessToken": <string>
-  },
-  "status": <string>,
-  "roles": {
-    "app_owner": <boolean>,
-    "archived": <boolean>,
-    "member" : <boolean>,
-    "restricted": <boolean>,
-    "super_user": <boolean>,
-    "inDiscord" : <boolean>,
-  },
-  "profileURL": <string>,
-  "picture":{
-    "publicId": <string>,
-    "url": <string>
-  }
+	"id": "string",
+	"username": "string",
+	"first_name": "string",
+	"last_name": "string",
+	"email": "string",
+	"phone": "number",
+	"yoe": "number",
+	"company": "string",
+	"designation": "string",
+	"img": "string",
+	"github_id": "string",
+	"github_display_name": "string",
+	"linkedin_id": "string",
+	"twitter_id": "string",
+	"instagram_id": "string",
+	"skills": [],
+	"website": "string",
+	"isMember": "boolean",
+	"userType": "string",
+	"tokens": {
+		"githubAccessToken": "string"
+	},
+	"status": "string",
+	"roles": {
+		"app_owner": "boolean",
+		"archived": "boolean",
+		"member": "boolean",
+		"restricted": "boolean",
+		"super_user": "boolean",
+		"inDiscord": "boolean"
+	},
+	"profileURL": "string",
+	"picture": {
+		"publicId": "string",
+		"url": "string"
+	}
 }
 ```
 
