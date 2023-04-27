@@ -1,6 +1,6 @@
 # Users
 
-```
+```json
 {
   "id": <string>,
   "username": <string>,
