@@ -22,7 +22,7 @@
     "<question_id>",
     "<question_id>"
   ],
-  'comments;: [
+  'comments: [
     "<comment_id>",
     "<comment_id>",
     "<comment_id>",
