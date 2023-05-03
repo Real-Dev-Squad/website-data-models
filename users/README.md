@@ -13,6 +13,7 @@
   'designation': string,
   'img': string,
   'github_id': string,
+  'github_user_id': string,
   'linkedin_id': string,
   'twitter_id': string,
   'instagram_id': string,
