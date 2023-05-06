@@ -67,14 +67,14 @@
   "tokens": {
      "githubAccessToken": "ankurGithubAccessToken",
   },
-  "status": "active" | "idle" | "ooo",
+  "status": "active",
   "roles": {
     "app_owner": false,
     "archived": false,
     "member" : true,
     "restricted": false,
     "super_user": false,
-    "inDiscord" : true,
+    "in_discord" : true,
   },
   "profileURL": "https://abcde.com",
   "picture":{
