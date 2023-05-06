@@ -31,7 +31,7 @@
 		"member": "boolean",
 		"restricted": "boolean",
 		"super_user": "boolean",
-		"inDiscord": "boolean"
+		"in_discord": "boolean"
 	},
 	"profileURL": "string",
 	"picture": {
