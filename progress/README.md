@@ -16,7 +16,7 @@
 ```
 
 ## Example
-User Progress Update
+User Progress Document
 ```json
 {
   "id": "d4606ee112f7892c45a0",
@@ -29,7 +29,8 @@ User Progress Update
   "createdAt": 1683681079838
 }
 ```
-Task progress update
+
+Task progress Document
 ```json
 {
   "id": "e71c150bebb80e5e1c15",
