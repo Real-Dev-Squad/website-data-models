@@ -5,7 +5,7 @@
   "id": "Unique identifier for the document. (String)",
   "type": "Type of the document, i.e task or user. (String)", 
   "userId": "The id of the user (String)",
-  "taskId": "The id of the task ,will be applicable only for task. (String)",
+  "taskId": "The id of the task, will be applicable only for task. (String)",
   "completed": "The work accomplished after the previous progress update. (String)",
   "planned": "The planned work to be accomplished before the next update. (String)",
   "blockers": "Issues or obstacles that are preventing progress .(String)",
