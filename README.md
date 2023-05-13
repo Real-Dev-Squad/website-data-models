@@ -18,3 +18,4 @@ Firebase database table structure
 - [Users](/users)
 - [Wallets](/wallets)
 - [Applicants](/applicants)
+- [Discord-actions](/discordactions)
