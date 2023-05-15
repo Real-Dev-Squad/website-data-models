@@ -46,6 +46,30 @@
 
 ```json
 {
+
+  'id': string,
+  'username': string,
+  'first_name': string,
+  'last_name': string,
+  'email': string,
+  'phone': number,
+  'yoe': number,
+  'company': string,
+  'designation': string,
+  'img': string,
+  'github_id': string,
+  'github_user_id': string,
+  'linkedin_id': string,
+  'twitter_id': string,
+  'instagram_id': string,
+  'skills': [],
+  'website': string,
+  'github_display_name': string,
+  'isMember': boolean,
+  'userType': string,
+  'tokens': {},
+  'status': string
+
   "id": "12345",
   "username": "ankur",
   "first_name": "Ankur",
@@ -83,5 +107,6 @@
     "publicId": "profile/mtS4DhUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar",
     "url": "https://res.cloudinary.com/realdevsquad/image/upload/v1663885133/profile/mtS4DpUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar.jpg",
   }
+
 }
 ```
