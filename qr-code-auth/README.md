@@ -3,7 +3,7 @@
 ```
 {
   'user_id': string,
-  'device_name':string,
+  'device_info':string,
   'confirmation': boolean,
   'access_token': string,
 }
