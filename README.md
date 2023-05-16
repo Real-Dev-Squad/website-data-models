@@ -17,3 +17,4 @@ Firebase database table structure
 - [Stocks](/stocks)
 - [Users](/users)
 - [Wallets](/wallets)
+- [Applicants](/applicants)
