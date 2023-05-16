@@ -4,7 +4,7 @@
 {
   'user_id': string,
   'device_info':string,
-  'confirmation': boolean,
+  'is_authorized': boolean,
   'access_token': string,
 }
 
