@@ -23,7 +23,7 @@ User trackedProgresses Document
   "type": "user",
   "userId": "hPz5hfWBd9oSwMljGk1s",
   "frequency": 1,
-  "currentlyTracked": True,
+  "currentlyTracked": true,
   "createdAt": "2023-05-16T14:35:00Z",
   "updatedAt": "2023-05-16T14:35:00Z"
 }
@@ -37,7 +37,7 @@ Task trackedProgresses Document
   "type": "task",
   "taskId": "t5k77PHnuDSrgEzvMJAj",
   "frequency": 4,
-  "currentlyTracked": False,
+  "currentlyTracked": false,
   "createdAt": "2023-05-16T14:35:00Z",
   "updatedAt": "2023-05-16T14:35:00Z"
 }
