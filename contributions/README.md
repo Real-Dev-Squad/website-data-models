@@ -45,7 +45,8 @@
         img: string,
         username: string
       }],
-      isNoteworthy: boolean
+      isNoteworthy: boolean,
+      isCollapsed: boolean
     },
     prList: [{
       title: string,
