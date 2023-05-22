@@ -1,4 +1,5 @@
 # Data Models
+
 Firebase database table structure
 
 ## Tables
@@ -9,6 +10,7 @@ Firebase database table structure
 - [Challenges](/challenges)
 - [Contributions](/contributions)
 - [Crypto](/crypto)
+- [Events](/events)
 - [Notifications](/notifications)
 - [Recruiters](/recruiters)
 - [Tasks](/tasks)
