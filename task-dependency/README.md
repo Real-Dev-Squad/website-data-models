@@ -2,8 +2,8 @@ Firestore taskDependencies collection data model
 
 ```json
 {
-  "taskId" : "Id of the task which has dependencies.",
-  "dependsId" : "Id of the task which the task is dependent on."
+  "dependsOn" : "Id of the task which the task is dependent on.",
+  "taskId" : "Id of the task which has dependencies."
 }
 ```
 
@@ -11,7 +11,7 @@ Firestore taskDependencies collection data model
 
 ```json
 {
-  "dependsId" : "bIkwsOXXWNOjU2bGQ64Y",
+  "dependsOn" : "bIkwsOXXWNOjU2bGQ64Y",
   "taskId" : "P3PWLt7J4d0zcWpxNQzb"
 }
 ```
