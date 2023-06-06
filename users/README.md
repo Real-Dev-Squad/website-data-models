@@ -6,7 +6,7 @@
 	"username": "string",
 	"first_name": "string",
 	"last_name": "string",
-  "joinedAt": "number",
+  	"joinedAt": "number",
 	"email": "string",
 	"phone": "number",
 	"yoe": "number",
@@ -23,7 +23,7 @@
 	"website": "string",
 	"isMember": "boolean",
 	"userType": "string",
-  "githubLinkedAt": "number",
+  	"githubLinkedAt": "number",
 	"tokens": {
 		"githubAccessToken": "string"
 	},
