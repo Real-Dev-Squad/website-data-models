@@ -6,7 +6,7 @@ Firestore Task Requests collection data model
 {
   approvedTo?: string,
   id: string,
-  requestedBy: string[],
+  requestors: string[],
   status: "APPROVED" | "WAITING",
 }
 ```
