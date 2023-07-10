@@ -34,6 +34,12 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
+    "archivedDetails": {
+    "archived_at": "String",
+    "archived_user_id": "String",
+    "super_user_id": "String",
+    "reason": "String"
+  },
 	"profileURL": "string",
 	"picture": {
 		"publicId": "string",
@@ -101,6 +107,12 @@
     "restricted": false,
     "super_user": false,
     "in_discord" : true,
+  },
+    "archivedDetails": {
+    "archived_at": "String",
+    "archived_user_id": "String",
+    "super_user_id": "String",
+    "reason": "String"
   },
   "profileURL": "https://abcde.com",
   "picture":{
