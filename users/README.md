@@ -2,49 +2,49 @@
 
 ```json
 {
-	"id": "string",
-	"username": "string",
-	"first_name": "string",
-	"last_name": "string",
-	"email": "string",
-	"phone": "number",
-	"yoe": "number",
-	"company": "string",
-	"designation": "string",
-	"img": "string",
-	"github_id": "string",
-	"github_display_name": "string",
-	"linkedin_id": "string",
-	"twitter_id": "string",
-	"instagram_id": "string",
-	"skills": [],
-	"joined_discord": "string",
-	"website": "string",
-	"isMember": "boolean",
-	"userType": "string",
-	"tokens": {
-		"githubAccessToken": "string"
-	},
-	"status": "string",
-	"roles": {
-		"app_owner": "boolean",
-		"archived": "boolean",
-		"member": "boolean",
-		"restricted": "boolean",
-		"super_user": "boolean",
-		"in_discord": "boolean"
-	},
-    "archivedDetails": {
-    "archived_at": "String",
-    "archived_user_id": "String",
+  "id": "string",
+  "username": "string",
+  "first_name": "string",
+  "last_name": "string",
+  "email": "string",
+  "phone": "number",
+  "yoe": "number",
+  "company": "string",
+  "designation": "string",
+  "img": "string",
+  "github_id": "string",
+  "github_display_name": "string",
+  "linkedin_id": "string",
+  "twitter_id": "string",
+  "instagram_id": "string",
+  "skills": [],
+  "joined_discord": "string",
+  "website": "string",
+  "isMember": "boolean",
+  "userType": "string",
+  "tokens": {
+    "githubAccessToken": "string"
+  },
+  "status": "string",
+  "roles": {
+    "app_owner": "boolean",
+    "archived": "boolean",
+    "member": "boolean",
+    "restricted": "boolean",
+    "super_user": "boolean",
+    "in_discord": "boolean"
+  },
+  "archivedDetails": {
+    "updated_by": "String",
+    "user_id": "String",
     "super_user_id": "String",
     "reason": "String"
   },
-	"profileURL": "string",
-	"picture": {
-		"publicId": "string",
-		"url": "string"
-	}
+  "profileURL": "string",
+  "picture": {
+    "publicId": "string",
+    "url": "string"
+  }
 }
 ```
 
@@ -109,10 +109,10 @@
     "in_discord" : true,
   },
     "archivedDetails": {
-    "archived_at": "String",
-    "archived_user_id": "String",
-    "super_user_id": "String",
-    "reason": "String"
+    "updated_by": "July 10, 2023 at 8:51:30 AM UTC+",
+    "user_id": "GDCekYY0H4Gr2t7tvPQB",
+    "super_user_id": "LQBMyug9eHeC3zooncVN",
+    "reason": "Officia irure laboris sit."
   },
   "profileURL": "https://abcde.com",
   "picture":{
