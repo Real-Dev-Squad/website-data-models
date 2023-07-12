@@ -35,8 +35,7 @@
     "in_discord": "boolean"
   },
   "archivedDetails": {
-    "updated_by": "String",
-    "user_id": "String",
+    "updated_at": "String",
     "super_user_id": "String",
     "reason": "String"
   },
@@ -109,8 +108,7 @@
     "in_discord" : true,
   },
     "archivedDetails": {
-    "updated_by": "July 10, 2023 at 8:51:30 AM UTC+",
-    "user_id": "GDCekYY0H4Gr2t7tvPQB",
+    "updated_at": "July 10, 2023 at 8:51:30 AM UTC+",
     "super_user_id": "LQBMyug9eHeC3zooncVN",
     "reason": "Officia irure laboris sit."
   },
