@@ -2,48 +2,48 @@
 
 ```json
 {
-  "id": "string",
-  "username": "string",
-  "first_name": "string",
-  "last_name": "string",
-  "email": "string",
-  "phone": "number",
-  "yoe": "number",
-  "company": "string",
-  "designation": "string",
-  "img": "string",
-  "github_id": "string",
-  "github_display_name": "string",
-  "linkedin_id": "string",
-  "twitter_id": "string",
-  "instagram_id": "string",
-  "skills": [],
-  "joined_discord": "string",
-  "website": "string",
-  "isMember": "boolean",
-  "userType": "string",
-  "tokens": {
-    "githubAccessToken": "string"
+	"id": "string",
+	"username": "string",
+	"first_name": "string",
+	"last_name": "string",
+	"email": "string",
+	"phone": "number",
+	"yoe": "number",
+	"company": "string",
+	"designation": "string",
+	"img": "string",
+	"github_id": "string",
+	"github_display_name": "string",
+	"linkedin_id": "string",
+	"twitter_id": "string",
+	"instagram_id": "string",
+	"skills": [],
+	"joined_discord": "string",
+	"website": "string",
+	"isMember": "boolean",
+	"userType": "string",
+	"tokens": {
+		"githubAccessToken": "string"
+	},
+	"status": "string",
+	"roles": {
+		"app_owner": "boolean",
+		"archived": "boolean",
+		"member": "boolean",
+		"restricted": "boolean",
+		"super_user": "boolean",
+		"in_discord": "boolean"
+	},
+    "archivedDetails": {
+    "updated_at": "number",
+    "super_user_id": "string",
+    "reason": "string"
   },
-  "status": "string",
-  "roles": {
-    "app_owner": "boolean",
-    "archived": "boolean",
-    "member": "boolean",
-    "restricted": "boolean",
-    "super_user": "boolean",
-    "in_discord": "boolean"
-  },
-  "archivedDetails": {
-    "updated_at": "String",
-    "super_user_id": "String",
-    "reason": "String"
-  },
-  "profileURL": "string",
-  "picture": {
-    "publicId": "string",
-    "url": "string"
-  }
+	"profileURL": "string",
+	"picture": {
+		"publicId": "string",
+		"url": "string"
+	}
 }
 ```
 
