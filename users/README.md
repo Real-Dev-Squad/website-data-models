@@ -35,7 +35,7 @@
 		"in_discord": "boolean"
 	},
     "archivedDetails": {
-    "updated_at": "number",
+    "updated_at": "Timestamp",
     "super_user_id": "string",
     "reason": "string"
   },
@@ -108,7 +108,7 @@
     "in_discord" : true,
   },
     "archivedDetails": {
-    "updated_at": "1689336810",
+    "updated_at": "1689350010900",
     "super_user_id": "LQBMyug9eHeC3zooncVN",
     "reason": "Officia irure laboris sit."
   },
