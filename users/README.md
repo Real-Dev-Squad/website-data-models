@@ -108,7 +108,7 @@
     "in_discord" : true,
   },
     "archivedDetails": {
-    "updated_at": "July 10, 2023 at 8:51:30 AM UTC+",
+    "updated_at": "1689336810",
     "super_user_id": "LQBMyug9eHeC3zooncVN",
     "reason": "Officia irure laboris sit."
   },
