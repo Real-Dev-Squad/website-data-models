@@ -34,11 +34,11 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
-    "archivedDetails": {
+    "archivedDetails": [{
     "updated_at": "Timestamp",
     "super_user_id": "string",
     "reason": "string"
-  },
+  }],
 	"profileURL": "string",
 	"picture": {
 		"publicId": "string",
@@ -107,11 +107,11 @@
     "super_user": false,
     "in_discord" : true,
   },
-    "archivedDetails": {
+    "archivedDetails": [{
     "updated_at": "1689350010900",
     "super_user_id": "LQBMyug9eHeC3zooncVN",
     "reason": "Officia irure laboris sit."
-  },
+  }],
   "profileURL": "https://abcde.com",
   "picture":{
     "publicId": "profile/mtS4DhUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar",
