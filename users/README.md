@@ -34,7 +34,7 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
-    "archivedDetails": [{
+  "archivedDetails": [{
     "updated_at": "timestamp",
     "super_user_id": "string",
     "reason": "string"
@@ -107,7 +107,7 @@
     "super_user": false,
     "in_discord" : true,
   },
-    "archivedDetails": [{
+  "archivedDetails": [{
     "updated_at": "1689350010900",
     "super_user_id": "LQBMyug9eHeC3zooncVN",
     "reason": "Officia irure laboris sit."
