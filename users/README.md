@@ -34,8 +34,8 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
-    "archivedDetails": [{
-    "updated_at": "Timestamp",
+    "archivedDetails": {
+    "updated_at": "timestamp",
     "super_user_id": "string",
     "reason": "string"
   }],
