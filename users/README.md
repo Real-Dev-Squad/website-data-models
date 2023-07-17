@@ -34,11 +34,11 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
-  "archivedDetails": [{
-    "updated_at": "timestamp",
-    "super_user_id": "string",
-    "reason": "string"
-  }],
+        "archivedDetails": [{
+                "updated_at": "timestamp",
+                "super_user_id": "string",
+                "reason": "string"
+         }],
 	"profileURL": "string",
 	"picture": {
 		"publicId": "string",
