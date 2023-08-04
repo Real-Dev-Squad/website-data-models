@@ -38,7 +38,9 @@
 	"picture": {
 		"publicId": "string",
 		"url": "string"
-	}
+	},
+	"created_at": "timestamp",
+	"updated_at": "timestamp"
 }
 ```
 
@@ -106,7 +108,9 @@
   "picture":{
     "publicId": "profile/mtS4DhUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar",
     "url": "https://res.cloudinary.com/realdevsquad/image/upload/v1663885133/profile/mtS4DpUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar.jpg",
-  }
+  },
+"created_at": 1683676800000,
+"updated_at": 1683676800000
 
 }
 ```
