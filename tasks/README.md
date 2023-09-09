@@ -22,9 +22,18 @@ Firestore Tasks collection data model
     dinero: number
   },
   isNoteworthy: boolean,
+  isCollapsed: boolean,
   createdBy: string,
   assignee: string,
-  participants: [userId, userId]
+  participants: [userId, userId],
+  github: {
+    issue: {
+      status: "closed | open",
+      assignee: string,
+      id: number,
+      closedAt: string
+    }
+  }
 }
    
 ```
