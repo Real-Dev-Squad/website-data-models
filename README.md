@@ -12,6 +12,7 @@ Firebase database table structure
 - [Crypto](/crypto)
 - [Events](/events)
 - [Notifications](/notifications)
+- [Peers](/peers)
 - [Recruiters](/recruiters)
 - [Tasks](/tasks)
 - [Trade-logs](/trade-logs)
