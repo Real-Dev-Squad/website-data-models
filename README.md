@@ -20,3 +20,4 @@ Firebase database table structure
 - [Users](/users)
 - [Wallets](/wallets)
 - [Applicants](/applicants)
+- [task-dependency](/task-dependency/)
