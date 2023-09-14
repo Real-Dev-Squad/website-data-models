@@ -27,7 +27,7 @@
   ],
   'rds_user': {
     is_rds_user:boolean,
-    user_id: "<USER_ID_OF_THE_USER_WHO_JOINED_THE_EVENT>"
+    rds_user_id: "<USER_ID_OF_THE_USER_WHO_JOINED_THE_EVENT>"
   },
 }
 ```
