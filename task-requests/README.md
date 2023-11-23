@@ -8,8 +8,8 @@ Firestore Collection name: `taskRequests`
     taskId: <string>
     externalIssueId: <string>
     requestType: ASSIGNMENT | CREATION
-    users : <Array<users>>
-    status : PENDING | APPROVED | DENIED
+    users: <Array<users>>
+    status: PENDING | APPROVED | DENIED
     taskTitle: <string>
     usersCount: <number>
     createdAt: <epoch>
@@ -25,6 +25,6 @@ Firestore Collection name: `taskRequests`
 	status: APPROVED | PENDING 
 	proposedDeadline: <epoch>
 	proposedStartDate: <epoch>
-  description: <string>
+  	description: <string>
 }
 ```
