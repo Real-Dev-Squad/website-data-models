@@ -33,7 +33,9 @@ Firestore Tasks collection data model
       id: number,
       closedAt: string
     }
-  }
+  },
+  createdAt: epoch timestamp,
+  updatedAt: epoch timestamp
 }
    
 ```
