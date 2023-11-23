@@ -22,6 +22,8 @@
         forFun: string,
         whyRds: string
     },
-    foundFrom: string
+    foundFrom: string,
+    status: string || null,
+    discordLink: string || null
 }
 ```
