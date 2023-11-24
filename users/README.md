@@ -6,6 +6,7 @@
 	"username": "string",
 	"first_name": "string",
 	"last_name": "string",
+  	"joinedAt": "number",
 	"email": "string",
 	"phone": "number",
 	"yoe": "number",
@@ -22,6 +23,7 @@
 	"website": "string",
 	"isMember": "boolean",
 	"userType": "string",
+  	"githubLinkedAt": "number",
 	"tokens": {
 		"githubAccessToken": "string"
 	},
@@ -48,34 +50,11 @@
 
 ```json
 {
-
-  'id': string,
-  'username': string,
-  'first_name': string,
-  'last_name': string,
-  'email': string,
-  'phone': number,
-  'yoe': number,
-  'company': string,
-  'designation': string,
-  'img': string,
-  'github_id': string,
-  'github_user_id': string,
-  'linkedin_id': string,
-  'twitter_id': string,
-  'instagram_id': string,
-  'skills': [],
-  'website': string,
-  'github_display_name': string,
-  'isMember': boolean,
-  'userType': string,
-  'tokens': {},
-  'status': string
-
   "id": "12345",
   "username": "ankur",
   "first_name": "Ankur",
   "last_name": "Narkhede",
+  "joinedAt": 1686014202464,
   "email": "abc@gmail.com",
   "phone": 1234567890,
   "yoe": 0,
@@ -92,6 +71,7 @@
   "website": "mywebsite.com",
   "isMember": true,
   "userType": "",
+  "githubLinkedAt":1686013994127,
   "tokens": {
      "githubAccessToken": "ankurGithubAccessToken",
   },
