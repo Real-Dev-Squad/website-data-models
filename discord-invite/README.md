@@ -2,7 +2,7 @@
 
 ```
 {
-	userId: String,
+  userId: String,
   inviteLink: String
 }
 ```
