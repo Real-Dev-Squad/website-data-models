@@ -24,6 +24,6 @@
     },
     foundFrom: string,
     status: string || null,
-    reason: string || null
+    feedback: string || null
 }
 ```
