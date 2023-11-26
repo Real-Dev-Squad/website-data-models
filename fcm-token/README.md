@@ -2,7 +2,7 @@
 
 ```
 {
-  'fcmToken': array,
+  'fcmTokens': array,
   'userId': string,
 }
 ```
