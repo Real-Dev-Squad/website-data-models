@@ -3,6 +3,6 @@
 ```
 {
   'fcmTokens': array<string>,
-  'userId': string,
+  'userId' | 'groupRoleId: string,
 }
 ```
