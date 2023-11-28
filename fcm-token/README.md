@@ -1,8 +1,8 @@
-#fcmToken
+# Collection: fcmTokens
 
 ```
 {
-  'fcmTokens': array,
+  'fcmTokens': array<string>,
   'userId': string,
 }
 ```
