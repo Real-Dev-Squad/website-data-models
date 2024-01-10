@@ -4,41 +4,31 @@
 {
   "id": "String",
   "userId": "String",
-  "state": "PENDING",
+  "state": "PENDING" | "APPROVED" | "REJECTED",
   "from": "Timestamp",
   "until": "Timestamp",
   "message": "String",
   "createdAt": "Timestamp",
   "updatedAt": "Timestamp",
-  // after approval
-  "state": "APPROVED",
-  "approvedAt": "Timestamp",
-  "approvedBy": "String",
-  // after rejection
-  "state": "REJECTED",
-  "rejectedAt": "Timestamp",
-  "rejectedBy": "String",
-  "rejectedReason": "String"
+  "processedBy": "String",
+  "reason": "String"
 }
 ```
 
 #### Fields
 
-| Field          | Type      | Description                                             |
-| -------------- | --------- | ------------------------------------------------------- |
-| id             | String    | Unique identifier for the document.                     |
-| userId         | String    | The id of the user.                                     |
-| state          | String    | The state of the request.                               |
-| from           | Timestamp | Unix timestamp for the start date of the request.       |
-| until          | Timestamp | Unix timestamp for the end date of the request.         |
-| message        | String    | The message for the request.                            |
-| createdAt      | Timestamp | Unix timestamp for the creation time of the request.    |
-| updatedAt      | Timestamp | Unix timestamp for the last update time of the request. |
-| approvedAt     | Timestamp | Unix timestamp for the approval time of the request.    |
-| approvedBy     | String    | The id of the user who approved the request.            |
-| rejectedAt     | Timestamp | Unix timestamp for the rejection time of the request.   |
-| rejectedBy     | String    | The id of the user who rejected the request.            |
-| rejectedReason | String    | The reason for the rejection of the request.            |
+| Field       | Type      | Description                                                |
+| ----------- | --------- | ---------------------------------------------------------- |
+| id          | String    | Unique identifier for the document.                        |
+| userId      | String    | The id of the user who created the request.                |
+| state       | String    | The state of the request like APPROVED, REJECTED, PENDING. |
+| from        | Timestamp | Unix timestamp for the start date of the OOO request.      |
+| until       | Timestamp | Unix timestamp for the end date of the OOO request.        |
+| message     | String    | The message for the request.                               |
+| createdAt   | Timestamp | Unix timestamp for the creation time of the request.       |
+| updatedAt   | Timestamp | Unix timestamp for the last update time of the request.    |
+| processedBy | String    | The id of the user who processed the request.              |
+| reason      | String    | The reason for the request.                                |
 
 ### Example data
 
@@ -65,8 +55,8 @@
   "message": "Attending a work conference.",
   "createdAt": 1709525400000,
   "updatedAt": 1709827800000,
-  "approvedAt": 1709827800000,
-  "approvedBy": "Sedv5T1Tlid4Y6Y0d"
+  "processedBy": "Sedv5T1Tlid4Y6Y0d",
+  "reason": "Nice to have you back."
 }
 
 // Example for REJECTED state
@@ -79,9 +69,8 @@
   "message": "Out of office for personal reasons.",
   "createdAt": 1708763200000,
   "updatedAt": 1708841500000,
-  "rejectedAt": 1708841500000,
-  "rejectedBy": "Sedv5T1Tlid4Y6Y0d",
-  "rejectedReason": "Not enough notice."
+  "processedBy": "Sedv5T1Tlid4Y6Y0d",
+  "reason": "Not enough vacation days."
 }
 
 ```
