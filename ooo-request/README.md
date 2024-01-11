@@ -4,7 +4,7 @@
 {
   "id": "String",
   "userId": "String",
-  "state": "PENDING" | "APPROVED" | "REJECTED",
+  "state": "<PENDING | APPROVED | REJECTED>",
   "from": "Timestamp",
   "until": "Timestamp",
   "message": "String",
@@ -32,8 +32,9 @@
 
 ### Example data
 
+#### Example for PENDING state
+
 ```json
-// Example for PENDING state
 {
   "id": "OfsT1Tlid4Y6Y0d",
   "userId": "dfdsd5T1Tlid4Y6Y0d",
@@ -44,8 +45,11 @@
   "createdAt": 1709438900000,
   "updatedAt": 1709438900000
 }
+```
 
-// Example for APPROVED state
+#### Example for APPROVED state
+
+```json
 {
   "id": "MpykhM8sT1Tlid4Y6Y0d",
   "userId": "dfdsd5T1Tlid4Y6Y0d",
@@ -58,8 +62,11 @@
   "processedBy": "Sedv5T1Tlid4Y6Y0d",
   "reason": "Nice to have you back."
 }
+```
 
-// Example for REJECTED state
+#### Example for REJECTED state
+
+```json
 {
   "id": "Me8sT1Tlid4Y6Y0d",
   "userId": "dfdsd5T1Tlid4Y6Y0d",
@@ -72,5 +79,4 @@
   "processedBy": "Sedv5T1Tlid4Y6Y0d",
   "reason": "Not enough vacation days."
 }
-
 ```
