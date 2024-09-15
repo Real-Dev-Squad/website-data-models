@@ -34,6 +34,7 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
+    "disabled_roles": "string"[], // possible values - ["super_user"], ["member"], ["super_user", "member"], []
 	"profileURL": "string",
 	"picture": {
 		"publicId": "string",
@@ -103,6 +104,7 @@
     "super_user": false,
     "in_discord" : true,
   },
+  "disabled_roles":["super_user"],
   "profileURL": "https://abcde.com",
   "picture":{
     "publicId": "profile/mtS4DhUvNYsKqI7oCWVB/aenklfhtjldc5ytei3ar",
