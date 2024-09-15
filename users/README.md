@@ -34,7 +34,7 @@
 		"super_user": "boolean",
 		"in_discord": "boolean"
 	},
-    "disabled_roles": "string"[],
+    "disabled_roles": "string"[], // possible values - ["super_user"], ["member"], ["super_user", "member"], []
 	"profileURL": "string",
 	"picture": {
 		"publicId": "string",
