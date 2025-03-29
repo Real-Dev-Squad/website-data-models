@@ -6,7 +6,7 @@
   "id": "String",
   "type": "String",
   "userId": "String",
-  "state": "<PENDING | APPROVED | REJECTED>",
+  "state": "String",
   "oldEndsOn": "number",
   "newEndsOn": "number",
   "message": "String",
