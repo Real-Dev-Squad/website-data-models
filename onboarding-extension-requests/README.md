@@ -4,7 +4,7 @@
 ```json
 {
   "id": "String",
-  "type": "String"
+  "type": "String",
   "userId": "String",
   "state": "<PENDING | APPROVED | REJECTED>",
   "oldEndsOn": "number",
@@ -26,18 +26,16 @@
 | id            | String    | Unique identifier for the document.                                     |
 | userId        | String    | The id of the user who created the request.                             |
 | state         | String    | The state of the request like APPROVED, REJECTED, PENDING.              | 
-| oldEndsOn     | number    | Old deadline of the onboarding task in millisecond                      |
-| newEndsOn     | number    | New deadline of the onboarding task in millisecond                      |
-| message       | String    | The message provided by super user while approving or rejecting request.| 
+| oldEndsOn     | number    | Old deadline of the onboarding task in millisecond.                     |
+| newEndsOn     | number    | New deadline of the onboarding task in millisecond.                     |
+| message       | String    | The message provided by superuser while approving or rejecting request. | 
 | createdAt     | Timestamp | Unix timestamp for the creation time of the request.                    |
 | updatedAt     | Timestamp | Unix timestamp for the last update time of the request.                 |
-| lastModifiedBy| String    | The id of the superuser or request owner who processed the request      |  
+| lastModifiedBy| String    | The id of the superuser or request owner who processed the request.     |  
 | reason        | String    | The reason for the extension request.                                   |
 | requestedBy   | String    | The username of the user who created the request.                       |
-| requestNumber | number    | The current request number for onboarding task.                         |
-| type          | String    | The type of request i.e. ONBOARDING.                                    |
-
-
+| requestNumber | number    | The current request number of onboarding extension request.             |
+| type          | String    | The type of request, i.e., ONBOARDING.                                  |
 
 ### Example data
 
