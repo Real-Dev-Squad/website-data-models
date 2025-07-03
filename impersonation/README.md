@@ -1,4 +1,4 @@
-### Impersonation Request Firestore collection model
+# Impersonation Request Firestore collection model
 
 ```json
 {
@@ -23,8 +23,8 @@
 | ------------- | --------- | -------------------------------------------------------------------|
 | id            | String    | Unique identifier for the document.                                |
 | createdBy     | String    | The id of the super-user who created the impersonation request.    |
-| createdFor    | String    | The id of the user for the the impersonation request is created.   |
-|isImpersonationFinished | Boolean    | The boolean value which determines if a request has already been impersonated              |
+| createdFor    | String    | The id of the user for whom the impersonation request is created. |
+| isImpersonationFinished | Boolean | Indicates whether the impersonation session has finished. |
 | status        | String    | The status of the request like APPROVED, REJECTED, PENDING.        |
 | startedAt     | Timestamp | Firebase timestamp for the start time of the impersonation session.|
 | endedAt       | Timestamp | Firebase timestamp for the end time of the impersonation session.  |
@@ -32,7 +32,7 @@
 | createdAt     | Timestamp | Firebase timestamp for the creation time of the request.           |
 | updatedAt     | Timestamp | Firebase timestamp for the last update time of the request.        |
 | lastModifiedBy| String    | The id of the user who last modified the request                   |
-| reason        | String    | The reason for the creation of impersonation request.              |
+| reason        | String    | The reason for the creation of an impersonation request.           |
 
 ### Example data
 
@@ -84,7 +84,6 @@
   "lastModifiedBy": "adminReviewer456"
 }
 ```
-
 
 #### Example for APPROVED state (Session Started)
 
